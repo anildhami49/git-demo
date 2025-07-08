@@ -1,0 +1,10 @@
+version: "6.0.2"
+
+services:
+  app:
+    image: "node"
+    container_name: "anilsingh"
+    ports:
+      - "5000:5000"
+
+
